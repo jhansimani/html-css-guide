@@ -1,0 +1,107 @@
+body{
+  color: red;
+  font-family: sans-serif;
+  color: #444;
+  font-size: 16px;
+  position: relative;
+}
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+} */
+p {
+  font-size: 18px;
+}
+h1 {
+  color: blue;
+  font-size: 26px;
+   
+  /* we can specify a font in something like a word document
+  or a google page document 
+  you can do the same in css
+
+  what is the difference in case of css is 
+  that you cannot simply use a font family
+  that you have installed on your computer
+  because that wouldn't then work for all 
+  the users that are going to visit your page 
+  in the future unless they also have that 
+  font installed on the computer
+  so there is a solution for that that can tal later
+
+  but for now we will simply not actually specify
+  real font family , but instead just use the keyword
+  that we want the browser to use any font size
+  that is sans serif
+  
+  */
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+h2 {
+  font-size: 40px;
+   
+}
+p {
+  font-size: 22px;
+   
+  line-height: 1;
+}
+h3 {
+  font-size: 20px;
+   
+  text-align: center;
+}
+li {
+  font-size: 20px;
+}
+footer p {
+  font-size: 16px;
+}
+ /* article header p {
+  font-style: italic;
+}
+avoid long names and selecting all p childs use id for identifying  */
+.author {
+  font-size: 19px;
+  font-style: italic;
+}
+#author-text {
+  font-size: 20px;
+}
+
+/* you have use single unique id if we two elemnts with single id then we will not
+allowed to repeat id */
+
+/* If we need to use name in mutlple times then we have to use classes */
+.related {
+  list-style: none;
+}
+.like-button {
+padding: 10px;
+cursor: pointer;
+position: absolute;
+bottom: 50px;
+right: 50px;
+}
+h2 {
+  position: relative;
+  background-color: red;
+}
+h2::after{
+  content: 'Top';
+  position: absolute;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  top: -5px;
+  font-size: 10px;
+  right: 10px;
+}

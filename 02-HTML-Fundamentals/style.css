@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.product {
+  border: 4px solid black;
+  color: black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+.title {
+  text-align: center;
+  background-color: rgb(241, 239, 239);
+  font-size: 18px;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 20px;
+}
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 4px solid black;
+}
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.shipping {
+  text-transform: uppercase;
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.info {
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 10px;
+  /* list-style-position: inside; */
+  margin-left: 20px;
+}
+.product-detail {
+  list-style: square;
+}
+.sale {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px;
+  top: -11px;
+  font-size: 10px;
+  left: -22px;
+}
+.color-block-container {
+  position: relative;
+}
+.color-blocks {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.black-block {
+  background-color: black;
+}
+.red-block {
+  background-color: red;
+}
+.green-block {
+  background-color: green;
+}
+.cyan-block {
+  background-color: cyan;
+}
+.orange-block {
+  background-color: orange;
+}
+.coffee-block {
+  background-color: olive;
+}
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+.details {
+  float: right;
+  width: 243px;
+}
+.price-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.price {
+  float: left;
+}
+.shipping {
+  float: right;
+}
+.info {
+  clear: both;
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}

@@ -1,0 +1,108 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* MAIN COLOR : #087f5b 
+secondary color: #343a40;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+}
+.carousel {
+  width: 800px;
+  background-color: #087f5b;
+  margin: 100px auto;
+  border-radius: 8px;
+  color: #fff;
+  padding: 32px;
+  padding-left: 86px;
+  padding-right: 48px;
+  position: relative;
+  display: flex;
+  gap: 86px;
+  align-items: center;
+}
+.textnomial {
+}
+.textnomial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #e6fcf5;
+}
+.textnomial-author {
+  color: #c3fae8;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.textnomial-job {
+  color: #c3fae8;
+  font-size: 12px;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+.left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 4px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+}
+.dots .filled {
+  background-color: #087f5b;
+}
